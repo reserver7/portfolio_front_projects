@@ -1,0 +1,43 @@
+{
+  "run": {
+    "command": "nx build @portfolio/react-components-layout",
+    "startTime": "2024-07-18T07:43:52.561Z",
+    "endTime": "2024-07-18T07:44:16.160Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@portfolio/esbuild-config:build",
+      "target": "build",
+      "projectName": "@portfolio/esbuild-config",
+      "hash": "8953589568770043703",
+      "startTime": "2024-07-18T07:43:52.579Z",
+      "endTime": "2024-07-18T07:43:54.907Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@portfolio/themes:build",
+      "target": "build",
+      "projectName": "@portfolio/themes",
+      "hash": "222025683775256964",
+      "startTime": "2024-07-18T07:43:54.910Z",
+      "endTime": "2024-07-18T07:44:04.922Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@portfolio/react-components-layout:build",
+      "target": "build",
+      "projectName": "@portfolio/react-components-layout",
+      "hash": "1781052754177772500",
+      "startTime": "2024-07-18T07:44:04.925Z",
+      "endTime": "2024-07-18T07:44:16.160Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

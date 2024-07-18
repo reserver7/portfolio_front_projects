@@ -9396,6 +9396,16 @@
       },
       {
         "source": "@portfolio/storybook",
+        "target": "npm:react@18.3.1",
+        "type": "static"
+      },
+      {
+        "source": "@portfolio/storybook",
+        "target": "npm:react-dom@18.3.1",
+        "type": "static"
+      },
+      {
+        "source": "@portfolio/storybook",
         "target": "npm:storybook@8.2.4",
         "type": "static"
       },

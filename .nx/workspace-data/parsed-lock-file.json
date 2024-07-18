@@ -20828,6 +20828,16 @@
       "type": "static"
     },
     {
+      "source": "npm:react-dom@18.3.1",
+      "target": "npm:loose-envify@1.4.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:react-dom@18.3.1",
+      "target": "npm:scheduler@0.23.2",
+      "type": "static"
+    },
+    {
       "source": "npm:react-element-to-jsx-string@15.0.0",
       "target": "npm:@base2/pretty-print-object@1.0.1",
       "type": "static"
@@ -20840,6 +20850,11 @@
     {
       "source": "npm:react-element-to-jsx-string@15.0.0",
       "target": "npm:react-is@18.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:react@18.3.1",
+      "target": "npm:loose-envify@1.4.0",
       "type": "static"
     },
     {

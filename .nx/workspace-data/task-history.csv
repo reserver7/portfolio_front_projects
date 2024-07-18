@@ -1,0 +1,6 @@
+project,target,configuration,hash,code,status,start,end
+@portfolio/storybook,storybook,,16203593681237750452,1,failure,1721287697277,1721287702624
+@portfolio/storybook,storybook,,16203593681237750452,1,failure,1721287793382,1721287798534
+@portfolio/esbuild-config,build,,8953589568770043703,0,success,1721288632579,1721288634907
+@portfolio/themes,build,,222025683775256964,0,success,1721288634910,1721288644922
+@portfolio/react-components-layout,build,,1781052754177772500,0,success,1721288644925,1721288656160

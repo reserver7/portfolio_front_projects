@@ -32,7 +32,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "1797353270377212724"
+        "hash": "12949150745981562684"
       },
       {
         "file": ".prettierrc",
@@ -120,11 +120,11 @@
       },
       {
         "file": "nx.json",
-        "hash": "14924708307150832443"
+        "hash": "2802105145389868175"
       },
       {
         "file": "package.json",
-        "hash": "16559122079372233173"
+        "hash": "1543792230589154353"
       },
       {
         "file": "tsconfig.base.json",
@@ -136,10 +136,54 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "8717036151523917530"
+        "hash": "914001084836068402"
       }
     ],
     "projectFileMap": {
+      "@portfolio/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "10700104108688154796"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "4886372635319753002"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "17341587499090778034"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "1299496639082683430",
+          "deps": [
+            "npm:@chromatic-com/storybook@1.6.1",
+            "@portfolio/react-components-layout",
+            "@portfolio/themes",
+            "npm:@storybook/addon-docs@8.2.4",
+            "npm:@storybook/addon-essentials@8.2.4",
+            "npm:@storybook/addon-interactions@8.2.4",
+            "npm:@storybook/addon-links@8.2.4",
+            "npm:@storybook/addon-onboarding@8.2.4",
+            "npm:@storybook/blocks@8.2.4",
+            "npm:@storybook/react@8.2.4",
+            "npm:@storybook/react-vite@8.2.4",
+            "npm:@storybook/test@8.2.4",
+            "npm:prop-types@15.8.1",
+            "npm:storybook@8.2.4",
+            "npm:storybook-addon-root-attributes@2.1.3",
+            "npm:vite@5.3.4"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
+          "hash": "7594381145739078519"
+        }
+      ],
       "@portfolio/themes": [
         {
           "file": "packages/themes/build.js",
@@ -230,7 +274,7 @@
         },
         {
           "file": "packages/react/components/layout/package.json",
-          "hash": "14459584636656787930",
+          "hash": "10996777144985436025",
           "deps": [
             "@portfolio/themes",
             "npm:react@18.3.1",
@@ -249,7 +293,7 @@
         },
         {
           "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "7968021838803431847"
+          "hash": "10042398698972855137"
         },
         {
           "file": "packages/react/components/layout/src/index.ts",

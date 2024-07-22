@@ -3,6 +3,7 @@
   "packageManager": "yarn@4.3.1",
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
+    "@portfolio/react-components-button": "workspace:^",
     "@portfolio/react-components-layout": "workspace:^",
     "@portfolio/themes": "workspace:^",
     "@storybook/addon-docs": "^8.2.4",
@@ -24,5 +25,8 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build": "storybook build"
+  },
+  "dependencies": {
+    "@portfolio/react-hooks-button": "workspace:^"
   }
 }

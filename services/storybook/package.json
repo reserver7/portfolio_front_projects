@@ -27,6 +27,7 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@portfolio/react-components-accordion": "workspace:^",
     "@portfolio/react-hooks-button": "workspace:^"
   }
 }

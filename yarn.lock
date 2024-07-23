@@ -2098,6 +2098,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@portfolio/react-components-accordion@workspace:^, @portfolio/react-components-accordion@workspace:packages/react/components/accordion":
+  version: 0.0.0-use.local
+  resolution: "@portfolio/react-components-accordion@workspace:packages/react/components/accordion"
+  dependencies:
+    "@portfolio/esbuild-config": "workspace:^"
+    "@portfolio/react-hooks-button": "workspace:^"
+    "@portfolio/themes": "workspace:^"
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@vanilla-extract/css": "npm:^1.15.3"
+    "@vanilla-extract/dynamic": "npm:^2.1.1"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.8"
+    "@vanilla-extract/recipes": "npm:^0.5.3"
+    "@vanilla-extract/sprinkles": "npm:^1.6.2"
+    clsx: "npm:^2.1.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@portfolio/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@portfolio/react-components-button@workspace:^, @portfolio/react-components-button@workspace:packages/react/components/button":
   version: 0.0.0-use.local
   resolution: "@portfolio/react-components-button@workspace:packages/react/components/button"
@@ -2182,6 +2206,7 @@ __metadata:
   resolution: "@portfolio/storybook@workspace:services/storybook"
   dependencies:
     "@chromatic-com/storybook": "npm:^1.6.1"
+    "@portfolio/react-components-accordion": "workspace:^"
     "@portfolio/react-components-button": "workspace:^"
     "@portfolio/react-components-layout": "workspace:^"
     "@portfolio/react-hooks-button": "workspace:^"
